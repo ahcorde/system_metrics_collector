@@ -22,9 +22,9 @@
 #include <memory>
 #include <mutex>
 
-#include "../../src/system_metrics_collector/collector.hpp"
-#include "../../src/system_metrics_collector/periodic_measurement_node.hpp"
-#include "../../src/moving_average_statistics/types.hpp"
+#include "system_metrics_collector/collector.hpp"
+#include "system_metrics_collector/periodic_measurement_node.hpp"
+#include "moving_average_statistics/types.hpp"
 
 #include "test_constants.hpp"
 

@@ -18,7 +18,7 @@
 #include <streambuf>
 #include <string>
 
-#include "utilities.hpp"
+#include "system_metrics_collector/utilities.hpp"
 #include "rcutils/logging_macros.h"
 
 namespace system_metrics_collector

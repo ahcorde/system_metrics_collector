@@ -26,8 +26,8 @@
 #include "metrics_statistics_msgs/msg/metrics_message.hpp"
 #include "metrics_statistics_msgs/msg/statistic_data_type.hpp"
 
-#include "../../src/system_metrics_collector/linux_cpu_measurement_node.hpp"
-#include "../../src/system_metrics_collector/proc_cpu_data.hpp"
+#include "system_metrics_collector/linux_cpu_measurement_node.hpp"
+#include "system_metrics_collector/proc_cpu_data.hpp"
 
 #include "test_constants.hpp"
 

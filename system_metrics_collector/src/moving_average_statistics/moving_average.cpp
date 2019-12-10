@@ -21,8 +21,8 @@
 #include <numeric>
 #include <type_traits>
 
-#include "moving_average.hpp"
-#include "types.hpp"
+#include "moving_average_statistics/moving_average.hpp"
+#include "moving_average_statistics/types.hpp"
 
 namespace moving_average_statistics
 {

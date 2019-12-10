@@ -20,7 +20,7 @@
 #include <memory>
 #include <mutex>
 
-#include "../../src/system_metrics_collector/utilities.hpp"
+#include "system_metrics_collector/utilities.hpp"
 #include "test_constants.hpp"
 
 TEST(UtilitiesTest, testProcessLines)

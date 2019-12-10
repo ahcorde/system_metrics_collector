@@ -33,9 +33,11 @@ find_package(rclcpp REQUIRED)
 find_package(rcpputils REQUIRED)
 find_package(rcutils REQUIRED)
 
+include_directories(include)
+
 add_library(system_metrics_collector SHARED
   src/moving_average_statistics/moving_average.cpp
-  src/moving_average_statistics/types.hpp
+  include/moving_average_statistics/types.hpp
   src/system_metrics_collector/metrics_message_publisher.cpp
   src/system_metrics_collector/collector.cpp
   src/system_metrics_collector/linux_cpu_measurement_node.cpp
@@ -116,5 +118,6 @@ install(TARGETS ${PROJECT_NAME}
 )
 
 ament_export_libraries(${PROJECT_NAME})
+ament_export_include_directories(include)
 
 ament_package()

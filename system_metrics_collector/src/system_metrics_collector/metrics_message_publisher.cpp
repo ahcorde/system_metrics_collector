@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "metrics_message_publisher.hpp"
+#include "system_metrics_collector/metrics_message_publisher.hpp"
 
 #include <string>
 #include <utility>

@@ -13,7 +13,7 @@
 // limitations under the License.
 
 
-#include "periodic_measurement_node.hpp"
+#include "system_metrics_collector/periodic_measurement_node.hpp"
 
 #include <chrono>
 #include <stdexcept>

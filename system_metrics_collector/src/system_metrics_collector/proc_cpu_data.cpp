@@ -15,7 +15,7 @@
 #include <string>
 #include <sstream>
 
-#include "proc_cpu_data.hpp"
+#include "system_metrics_collector/proc_cpu_data.hpp"
 
 namespace system_metrics_collector
 {

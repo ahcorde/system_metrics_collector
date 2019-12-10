@@ -12,14 +12,14 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "collector.hpp"
+#include "system_metrics_collector/collector.hpp"
 
 #include <mutex>
 #include <sstream>
 #include <string>
 
-#include "../../src/moving_average_statistics/moving_average.hpp"
-#include "../../src/moving_average_statistics/types.hpp"
+#include "moving_average_statistics/moving_average.hpp"
+#include "moving_average_statistics/types.hpp"
 
 namespace system_metrics_collector
 {

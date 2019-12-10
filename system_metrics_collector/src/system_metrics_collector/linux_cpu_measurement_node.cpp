@@ -17,8 +17,8 @@
 #include <sstream>
 #include <string>
 
-#include "../../src/system_metrics_collector/linux_cpu_measurement_node.hpp"
-#include "../../src/system_metrics_collector/periodic_measurement_node.hpp"
+#include "system_metrics_collector/linux_cpu_measurement_node.hpp"
+#include "system_metrics_collector/periodic_measurement_node.hpp"
 
 #include "rclcpp/rclcpp.hpp"
 #include "rcutils/logging_macros.h"
