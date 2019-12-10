@@ -111,10 +111,16 @@ endif()
 install(TARGETS
   main
   DESTINATION
-  lib/${PROJECT_NAME})
+  lib/${PROJECT_NAME}
+)
 
 install(TARGETS ${PROJECT_NAME}
   DESTINATION lib
+)
+
+install(
+  DIRECTORY include/
+  DESTINATION include
 )
 
 ament_export_libraries(${PROJECT_NAME})
